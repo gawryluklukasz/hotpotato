@@ -8,11 +8,7 @@ use ApiPlatform\Core\Annotation\ApiResource;
 
 /**
  * @ORM\Entity(repositoryClass="App\Repository\QuestionRepository")
- * @ApiResource(
- *      attributes={"filters"={"question.search_filter"}},
- *      collectionOperations={"get"={"method"="GET"}},
- *      itemOperations={"get"={"method"="GET"}}
- * )
+ * @ApiResource()
  * @author Łukasz Gawryluk <gawryluklukasz@gmail.com>
  */
 class Question
